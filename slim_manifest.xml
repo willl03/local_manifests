@@ -29,13 +29,7 @@
   <!-- Use CM -->
   <remove-project name="SlimRoms/android_external_qrngd" />
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-12.0" />
-  <remove-project name="platform/external/libxml2" />
-  <project path="external/libxml2" name="CyanogenMod/android_external_libxml2" groups="pdk-cw-fs" remote="github" revision="cm-12.0" />
-  <remove-project name="platform/external/tinyalsa" />
-  <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" remote="github" revision="cm-12.0" />
-  <remove-project name="platform/external/tinycompress" />
-  <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" remote="github" revision="cm-12.0" />
-  <remove-project name="platform/external/icu" />
+  <remove-project name="SlimRoms/android_external_icu" />
   <project path="external/icu" name="CyanogenMod/android_external_icu" groups="pdk" remote="github" revision="cm-12.0" />
   <remove-project name="SlimRoms/device_qcom_sepolicy" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.0" />
