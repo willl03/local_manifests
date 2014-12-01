@@ -34,6 +34,8 @@
   <project path="external/icu" name="CyanogenMod/android_external_icu" groups="pdk" remote="github" revision="cm-12.0" />
   <remove-project name="SlimRoms/device_qcom_sepolicy" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.0" />
+  <remove-project name="SlimRoms/android_external_sepolicy" />
+  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="github" revision="cm-12.0" />
   <!-- Use willl03 -->
   <remove-project name="SlimRoms/frameworks_av" />
   <project path="frameworks/av" name="willl03/frameworks_av" remote="github" revision="lp5.0-caf" />
