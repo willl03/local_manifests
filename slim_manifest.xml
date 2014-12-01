@@ -41,6 +41,8 @@
   <project path="platform_manifest" name="willl03/platform_manifest" remote="github" revision="lp5.0-caf" />
   <remove-project name="SlimRoms/frameworks_av" />
   <project path="frameworks/av" name="willl03/frameworks_av" remote="github" revision="lp5.0-caf" />
+  <remove-project name="SlimRoms/vendor_slim" />
+  <project path="vendor/slim" name="willl03/vendor_slim" remote="github" revision="lp5.0" />
   <remove-project name="SlimRoms/android_build" />
   <project path="build" name="willl03/android_build" remote="github" revision="lp5.0-test" >
     <copyfile src="core/root.mk" dest="Makefile" />
