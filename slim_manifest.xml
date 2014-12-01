@@ -13,7 +13,6 @@
   <project path="hardware/qcom/media-caf/msm8974" name="SlimRoms/hardware_qcom_media-caf" groups="qcom" remote="github" revision="lp5.0-caf-8974" />
   <project name="CyanogenMod/android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="github" revision="cm-12.0" />
   <project name="willl03/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.0" />
-  <project name="SlimRoms/android_system_qcom" path="system/qcom" remote="github" revision="lp5.0-caf" />
 
   <!-- W03 -->
   <remove-project name="SlimRoms/frameworks_base" />
