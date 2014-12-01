@@ -42,7 +42,7 @@
   <remove-project name="SlimRoms/frameworks_av" />
   <project path="frameworks/av" name="willl03/frameworks_av" remote="github" revision="lp5.0-caf" />
   <remove-project name="SlimRoms/android_build" />
-  <project path="build" name="willl03/android_build" remote="github" revision="lp5.0" >
+  <project path="build" name="willl03/android_build" remote="github" revision="lp5.0-test" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
