@@ -8,9 +8,9 @@
   <project name="SlimRoms/device_qcom_common" path="device/qcom/common" remote="github" revision="lp5.0" />
   <project name="SlimRoms/device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lp5.0" />
   <project name="SlimRoms/hardware_samsung" path="hardware/samsung" remote="github" revision="lp5.0" />
-  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" groups="qcom,qcom_audio" remote="github" revision="cm-12.0-caf-8974" />
-  <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" groups="qcom,qcom_display" remote="github" revision="cm-12.0-caf-8974" />
-  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" groups="qcom" remote="github" revision="cm-12.0-caf-8974" />
+  <project name="SlimRoms/hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" groups="qcom,qcom_audio" remote="github" revision="lp5.0-caf-8974" />
+  <project name="SlimRoms/hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" groups="qcom,qcom_display" remote="github" revision="lp5.0-caf-8974" />
+  <project name="SlimRoms/hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" groups="qcom" remote="github" revision="lp5.0-caf-8974" />
   <project name="CyanogenMod/android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="github" revision="cm-12.0" />
   <project name="willl03/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.0" />
 
@@ -30,24 +30,8 @@
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-12.0" />
   <remove-project name="SlimRoms/android_external_icu" />
   <project path="external/icu" name="CyanogenMod/android_external_icu" groups="pdk" remote="github" revision="cm-12.0" />
-  <remove-project name="SlimRoms/device_qcom_sepolicy" />
-  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.0" />
-  <remove-project name="SlimRoms/android_external_sepolicy" />
-  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="github" revision="cm-12.0" />
-  <remove-project name="SlimRoms/android_external_libsepol" />
-  <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="github" revision="cm-12.0" />
   <!-- Use willl03 -->
   <remove-project name="SlimRoms/platform_manifest" />
   <project path="platform_manifest" name="willl03/platform_manifest" remote="github" revision="lp5.0-caf" />
-  <remove-project name="SlimRoms/frameworks_av" />
-  <project path="frameworks/av" name="willl03/frameworks_av" remote="github" revision="lp5.0-caf" />
-  <remove-project name="SlimRoms/vendor_slim" />
-  <project path="vendor/slim" name="willl03/vendor_slim" remote="github" revision="lp5.0" />
-  <remove-project name="SlimRoms/android_system_core" />
-  <project path="system/core" name="willl03/android_system_core" remote="github" revision="lp5.0-caf" />
-  <remove-project name="SlimRoms/android_build" />
-  <project path="build" name="willl03/android_build" remote="github" revision="cm-12.0-slimified" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
 
 </manifest>
