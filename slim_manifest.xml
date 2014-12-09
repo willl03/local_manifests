@@ -20,6 +20,9 @@
   <remove-project name="SlimRoms/packages_apps_Settings" />
   <project name="willl03/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="lp5.0-caf" />
 
+  <!-- Additional -->
+  <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="github" revision="lp5.0" />
+
   <!-- Fixes / temp -->
   <!-- Remove -->
   <remove-project name="platform/packages/apps/LegacyCamera" />
