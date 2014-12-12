@@ -19,6 +19,8 @@
   <project path="frameworks/base" name="willl03/frameworks_base" remote="github" revision="lp5.0-caf" />
   <remove-project name="SlimRoms/packages_apps_Settings" />
   <project name="willl03/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="lp5.0-caf" />
+  <remove-project name="SlimRoms/packages_apps_InCallUI" />
+  <project name="willl03/packages_apps_InCallUI" path="packages/apps/InCallUI" remote="github" revision="lp5.0-caf" />
 
   <!-- Additional -->
   <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="github" revision="lp5.0" />
